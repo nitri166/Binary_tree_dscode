@@ -48,11 +48,6 @@ void reverseLevelOrderTraversal(node *root)
 
 
 
-
-    // 1) Instead of printing a node, we push the node to stack
-    // 2) Right subtree is visited before left subtree
-
-
         
 }
 
