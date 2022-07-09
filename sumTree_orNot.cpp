@@ -62,7 +62,8 @@ pair<bool,int> isSumTreeorNot(node * root){
     pair<bool,int> ans;
     if(left && right && condition){
         ans.first= true;
-        ans.second = 2*root->data;    }
+        ans.second = 2*root->data;  // this returns the sum of the current node and the nodes on its left and right sub trees
+    }
     else{
         ans.first= false;
     }    
